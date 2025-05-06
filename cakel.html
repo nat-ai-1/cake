@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>สุขสันต์วันเกิด</title>
+  <link rel="stylesheet" href="caketopper.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>อธิฐานก่อนกดเป่าน้าา ขอสิ่งที่เป็นไปได้นะ อย่าขอสิ่งที่เป็นไปไม่ได้ เดี๋ยวไม่สมหวัง😜😜😜</h1>
+    
+    <div class="cake">
+
+      <div class="candle" style="left: 30%;">
+        <div class="flame" id="flame1"></div>
+      </div>
+      <div class="candle" style="left: 50%;">
+        <div class="flame" id="flame2"></div>
+      </div>
+      <div class="candle" style="left: 70%;">
+        <div class="flame" id="flame3"></div>
+      </div>
+
+      
+      <div class="cake-layer layer1 " id="layer1"></div>
+      <div class="cake-layer layer2" id="layer2"></div>
+      <div class="cake-layer layer3" id="layer3"></div>
+    </div>
+
+    <input type="text" id="nameInput" placeholder="กรอกชื่อเจ้าของวันเกิด" />
+    <button onclick="blowCandle()">เป่าเทียน</button>
+
+    <p id="wishText"></p>
+  </div>
+
+  <script src="wish.js"></script>
+</body>
+</html>
